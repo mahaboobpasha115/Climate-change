@@ -93,8 +93,10 @@ header ul {
   padding: 2%;
   font-size: 14px;
   position: absolute;
-  top: 86%;
+  z-index: 1;
   left: 35%;
+  top: 86%;
+ 
 }
 .box4 {
   background-color: rgba(113, 240, 144, 0.733);
@@ -102,6 +104,7 @@ header ul {
   display: grid;
   grid-gap: 10%;
   padding: 10%;
+  position: relative;
 }
 .box4 p {
   font-size: 12px;
@@ -261,7 +264,7 @@ header ul {
   border-radius: 20px;
   border: 1px solid rgba(113, 240, 144, 0.733);
   position: absolute;
-  top: 80%;
+  top: 85%;
   left: 30%;
 }
 .container4 {
@@ -575,4 +578,33 @@ footer {
   margin-right: 10%;
   margin-top: 5%;
   padding-bottom: 10%;
+}
+
+@media (max-width:370px){
+.box3{
+  top: 125%;
+}
+.box5{
+  width: 35%;
+}
+.box4{
+padding: 5%;
+padding-top:10%;
+padding-bottom: 10%;
+}
+.Tree-planting img{
+  left: 10%;
+}
+.Education-Training img{
+  left: 10%;
+}
+.Advocacy-Campaigning img{
+  left: 10%;
+}
+.container4 button{
+width: 35%;
+}
+.box6{
+  width: 35%;
+}
 }
