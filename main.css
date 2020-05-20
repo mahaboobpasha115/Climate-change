@@ -224,7 +224,7 @@ header ul {
   border-radius: 20px;
   border: 1px solid rgba(113, 240, 144, 0.733);
   position: absolute;
-  top: 80%;
+  top: 85%;
   left: 30%;
 }
 .Advocacy-Campaigning {
@@ -606,5 +606,8 @@ footer {
   }
   .box6 {
     width: 35%;
+  }
+  .Education-Training button {
+    top: 90%;
   }
 }
