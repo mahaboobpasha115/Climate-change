@@ -96,7 +96,6 @@ header ul {
   z-index: 1;
   left: 35%;
   top: 86%;
- 
 }
 .box4 {
   background-color: rgba(113, 240, 144, 0.733);
@@ -478,7 +477,7 @@ header ul {
   flex-direction: column;
   align-items: center;
   position: relative;
-  margin-top:20%;
+  margin-top: 20%;
 }
 .box12 {
   height: 8%;
@@ -580,31 +579,32 @@ footer {
   padding-bottom: 10%;
 }
 
-@media (max-width:370px){
-.box3{
-  top: 125%;
-}
-.box5{
-  width: 35%;
-}
-.box4{
-padding: 5%;
-padding-top:10%;
-padding-bottom: 10%;
-}
-.Tree-planting img{
-  left: 10%;
-}
-.Education-Training img{
-  left: 10%;
-}
-.Advocacy-Campaigning img{
-  left: 10%;
-}
-.container4 button{
-width: 35%;
-}
-.box6{
-  width: 35%;
-}
+@media (max-width: 370px) {
+  .box3 {
+    display: none;
+  }
+  .box5 {
+    width: 35%;
+  }
+  .box4 {
+    grid-gap: 8%;
+    padding: 3%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  .Tree-planting img {
+    left: 10%;
+  }
+  .Education-Training img {
+    left: 10%;
+  }
+  .Advocacy-Campaigning img {
+    left: 10%;
+  }
+  .container4 button {
+    width: 35%;
+  }
+  .box6 {
+    width: 35%;
+  }
 }
