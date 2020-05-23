@@ -17,7 +17,7 @@ header h3 {
 }
 header ul {
   list-style: none;
-  margin-left: 20%;
+  margin-left: 25%;
   margin-top: 5%;
   line-height: 30px;
   font-size: 13px;
@@ -31,16 +31,25 @@ header ul {
   background-color: rgba(127, 245, 123, 0.541);
   border: 1px solid rgba(113, 240, 144, 0.733);
 }
-.container1 {
+.Stop-change {
   width: 95%;
   margin-left: 2.5%;
   background-image: url(images/bg1.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: ;
   background-size: cover;
+  background-position: top;
+
+  background-repeat: no-repeat;
+  margin-top: 7%;
   padding: 5%;
-  margin-top: 10%;
 }
+.heading {
+  line-height: 32px;
+  font-size: 18px;
+  color: white;
+  font-family: flood-std, sans-serif;
+}
+
 .box {
   display: flex;
   flex-direction: column;
@@ -48,64 +57,57 @@ header ul {
   position: relative;
   margin-top: 25%;
 }
-.box1 {
-  height: 15%;
-  width: 30%;
+.issue {
+  height: 30px;
+  width: 140px;
   background-color: rgb(44, 44, 49);
   color: white;
-  padding: 2%;
-  font-size: 14px;
-  margin-top: 25%;
-  z-index: 1;
-  position: absolute;
-  top: -45%;
+  padding: 2.3%;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: -5%;
 }
-.box2 {
+.threat-women {
   height: 200px;
   width: 300px;
   background-color: white;
-  padding: 5%;
   margin-bottom: 10%;
 }
-.box2 h2 {
+.threat-women h2 {
   font-size: 18px;
   text-align: center;
-  padding-top: 10%;
+  padding-top: 15%;
   letter-spacing: 1.3px;
 }
-.box2 a {
-  font-size: 13px;
+.threat-women a {
   color: black;
-  margin-left: 9%;
+  font-size: 12px;
+  margin-left: 15%;
 }
-.box2 span {
-  margin-left: 30%;
+.threat-women span {
+  margin-left: 32%;
 }
-.container2 {
-  max-width: 95%;
+.take-action {
+  width: 95%;
   margin-left: 2.5%;
 }
-.box3 {
+.take {
   height: 5%;
   width: 30%;
   background-color: rgb(44, 44, 49);
   color: white;
   padding: 2%;
   font-size: 14px;
-  position: absolute;
-  z-index: 1;
-  left: 35%;
-  top: 86%;
+  margin: -25px auto 0;
 }
-.box4 {
+.content {
   background-color: rgba(113, 240, 144, 0.733);
-
   display: grid;
-  grid-gap: 10%;
-  padding: 10%;
-  position: relative;
+  grid-gap: 12%;
+  padding: 15% 7%;
+  
 }
-.box4 p {
+.content p {
   font-size: 12px;
   line-height: 20px;
 }
@@ -125,8 +127,8 @@ header ul {
 .donate {
   grid-row: 2/3;
 }
-.container3 {
-  max-width: 95%;
+.what-we-do {
+  width: 95%;
   margin-left: 2.5%;
   background-color: rgb(44, 44, 49);
   padding: 5%;
@@ -135,47 +137,43 @@ header ul {
   flex-direction: column;
   align-items: center;
 }
-.box5 {
-  height: 15%;
-  width: 30%;
+.we-do {
+  width: 140px;
+  height: 35px;
+  text-align: center;
   background-color: white;
   color: rgb(44, 44, 49);
-  padding: 2%;
+  padding: 3%;
   font-size: 13px;
   margin-top: 5%;
 }
-.container3 p {
+.what-we-do p {
   letter-spacing: 1.3px;
-  max-width: 80%;
+  max-width: 75%;
+  line-height: 20px;
   text-align: center;
   margin-top: 5%;
 }
 .Tree-planting {
-  height: 350px;
-  width: 80%;
+  height: 400px;
+  width: 90%;
   background-color: white;
-  margin-top: 15%;
-  position: relative;
+  margin-top: 20%;
 }
 .Tree-planting img {
-  position: absolute;
-  left: 13%;
-  z-index: 1;
-  top: -7%;
+  margin-left: 12%;
+  margin-top: -10%;
 }
 .Tree-planting h3 {
   font-size: 15px;
   color: rgb(44, 44, 49);
-  position: absolute;
-  top: 35%;
-  left: 18%;
+  text-align: center;
+  margin-top: 8%;
 }
 .Tree-planting p {
   font-size: 13px;
   color: rgb(44, 44, 49);
-  position: absolute;
-  top: 40%;
-  left: 10%;
+  margin-left: 13%;
 }
 .Tree-planting button {
   background-color: rgba(113, 240, 144, 0.733);
@@ -184,37 +182,30 @@ header ul {
   width: 40%;
   border-radius: 20px;
   border: 1px solid rgba(113, 240, 144, 0.733);
-  position: absolute;
-  top: 80%;
-  left: 30%;
+  margin-top: 10%;
+  margin-left: 30%;
 }
 .Education-Training {
   margin-top: 15%;
   height: 400px;
-  width: 80%;
+  width: 90%;
   background-color: white;
-  margin-top: 15%;
-  position: relative;
+  margin-top: 20%;
 }
 .Education-Training img {
-  position: absolute;
-  left: 13%;
-  z-index: 1;
-  top: -7%;
+  margin-left: 12%;
+  margin-top: -10%;
 }
 .Education-Training h3 {
   font-size: 15px;
   color: rgb(44, 44, 49);
-  position: absolute;
-  top: 35%;
-  left: 18%;
+  text-align: center;
+  margin-top: 8%;
 }
 .Education-Training p {
   font-size: 13px;
   color: rgb(44, 44, 49);
-  position: absolute;
-  top: 40%;
-  left: 10%;
+  margin-left: 13%;
 }
 .Education-Training button {
   background-color: rgba(113, 240, 144, 0.733);
@@ -223,37 +214,27 @@ header ul {
   width: 40%;
   border-radius: 20px;
   border: 1px solid rgba(113, 240, 144, 0.733);
-  position: absolute;
-  top: 85%;
-  left: 30%;
+  margin-top: 10%;
+  margin-left: 30%;
 }
 .Advocacy-Campaigning {
   margin-top: 15%;
   height: 400px;
-  width: 80%;
+  width: 90%;
   background-color: white;
-  margin-top: 15%;
-  position: relative;
+  margin-top: 20%;
 }
 .Advocacy-Campaigning img {
-  position: absolute;
-  left: 13%;
-  z-index: 1;
-  top: -7%;
+  margin-left: 12%;
+  margin-top: -10%;
 }
 .Advocacy-Campaigning h3 {
   font-size: 15px;
   color: rgb(44, 44, 49);
-  position: absolute;
-  top: 35%;
-  left: 18%;
 }
 .Advocacy-Campaigning p {
   font-size: 13px;
   color: rgb(44, 44, 49);
-  position: absolute;
-  top: 40%;
-  left: 10%;
 }
 .Advocacy-Campaigning button {
   background-color: rgba(113, 240, 144, 0.733);
@@ -262,24 +243,21 @@ header ul {
   width: 40%;
   border-radius: 20px;
   border: 1px solid rgba(113, 240, 144, 0.733);
-  position: absolute;
-  top: 85%;
-  left: 30%;
 }
-.container4 {
+.hunger-issue {
   background-image: url(images/bg2.jpg);
   background-position: center;
   background-clip: unset;
   background-size: cover;
-  max-width: 95%;
+  width: 95%;
   margin-left: 2.5%;
 }
-.container4 h1 {
+.hunger-issue h1 {
   color: white;
   margin-left: 10%;
   padding-top: 10%;
 }
-.container4 button {
+.hunger-issue button {
   height: 30px;
   width: 30%;
   background-color: rgba(113, 240, 144, 0.733);
@@ -292,11 +270,11 @@ header ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
+
   margin-top: 15%;
 }
 
-.box6 {
+.did-you-know {
   height: 8%;
   width: 30%;
   font-size: 12px;
@@ -304,43 +282,41 @@ header ul {
   color: white;
   padding: 2%;
   margin-top: 10%;
-  position: absolute;
-  top: -13%;
 }
-.box7 {
+.info1 {
   background-color: white;
   width: 80%;
   display: flex;
   padding: 5%;
 }
-.box7 p {
+.info1 p {
   font-size: 12px;
   margin-top: 3%;
 }
-.box8 {
+.info2 {
   background-color: white;
   width: 80%;
   padding: 5%;
   margin-top: 5%;
   display: flex;
 }
-.box8 p {
+.info2 p {
   font-size: 12px;
   margin-top: 3%;
 }
-.box9 {
+.info3 {
   background-color: white;
   width: 80%;
   padding: 5%;
   margin-top: 5%;
   display: flex;
 }
-.box9 p {
+.info3 p {
   font-size: 12px;
   max-width: 60%;
   margin-top: 3%;
 }
-.box10 {
+.info4 {
   background-color: white;
   width: 80%;
   padding: 5%;
@@ -348,7 +324,7 @@ header ul {
   display: flex;
   margin-bottom: 5%;
 }
-.box10 p {
+.info4 p {
   margin-top: 3%;
   font-size: 12px;
 }
@@ -374,7 +350,6 @@ header ul {
   flex-direction: column;
   align-items: center;
   margin-top: 10%;
-  position: relative;
 }
 .story {
   height: 15%;
@@ -383,22 +358,20 @@ header ul {
   color: white;
   padding: 2%;
   font-size: 13px;
-  position: absolute;
-  top: -7%;
 }
-.container6 {
+.Balki {
   background-color: rgb(44, 44, 49);
   padding: 6%;
   max-width: 80%;
   margin-left: 10%;
   margin-top: 10%;
 }
-.container6 p {
+.Balki p {
   color: white;
   text-align: center;
   letter-spacing: 2px;
 }
-.container6 span {
+.Balki span {
   font-size: 10px;
 }
 #but2 {
@@ -410,7 +383,8 @@ header ul {
   margin-left: 33%;
   margin-top: 7%;
 }
-.container7 {
+
+.save-future {
   background-color: rgb(44, 44, 49);
   max-width: 95%;
   margin-left: 2.5%;
@@ -419,20 +393,20 @@ header ul {
   flex-direction: column;
 }
 
-.container7 h1 {
+.save-future h1 {
   color: white;
   margin-top: 10%;
   text-align: center;
   letter-spacing: 4px;
 }
-.Event {
+.earth-day {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
+
   margin-top: 15%;
 }
-.box11 {
+.events {
   height: 8%;
   width: 25%;
   background-color: white;
@@ -440,22 +414,20 @@ header ul {
   padding: 2%;
   font-size: 13px;
   text-align: center;
-  position: absolute;
-  top: -5%;
 }
-.Event h3 {
+.earth-day h3 {
   color: white;
   margin-top: 5%;
   text-align: center;
 }
-.Event p {
+.earth-day p {
   font-size: 12px;
   color: white;
   max-width: 70%;
   text-align: center;
   margin-top: 10%;
 }
-.Event button {
+.earth-day button {
   height: 30px;
   width: 30%;
   background-color: rgba(113, 240, 144, 0.733);
@@ -463,23 +435,15 @@ header ul {
   border: 1px solid rgba(113, 240, 144, 0.733);
   margin-top: 8%;
 }
-.box12 {
-  height: 15%;
-  width: 35%;
-  background-color: white;
-  color: rgb(44, 44, 49);
-  padding: 2%;
-  font-size: 13px;
-  margin-top: 10%;
-}
-.Latest-news {
+
+.community {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
+
   margin-top: 20%;
 }
-.box12 {
+.Latest-news {
   height: 8%;
   width: 35%;
   background-color: white;
@@ -488,22 +452,20 @@ header ul {
   font-size: 13px;
   margin-top: 10%;
   text-align: center;
-  position: absolute;
-  top: -12%;
 }
-.Latest-news h3 {
+.community h3 {
   color: white;
   margin-top: 5%;
   text-align: center;
 }
-.Latest-news p {
+.community p {
   font-size: 12px;
   color: white;
   max-width: 70%;
   text-align: center;
   margin-top: 8%;
 }
-.Latest-news button {
+.community button {
   height: 30px;
   width: 30%;
   background-color: rgba(113, 240, 144, 0.733);
@@ -512,16 +474,17 @@ header ul {
   margin-top: 8%;
   margin-bottom: 10%;
 }
-.container8 {
-  max-width: 95%;
+
+.subscription {
+  width: 95%;
   margin-left: 2.5%;
   background-color: rgba(113, 240, 144, 0.733);
   padding: 5%;
 }
-.container8 h3 {
+.subscription h3 {
   letter-spacing: 1.3px;
 }
-.container8 button {
+.subscription button {
   height: 30px;
   width: 30%;
   color: rgba(113, 240, 144, 0.733);
@@ -539,7 +502,7 @@ header ul {
   text-align: center;
   margin-top: 5%;
 }
-.container9 {
+.Initiative {
   background-color: white;
   padding: 10%;
   display: flex;
@@ -577,37 +540,4 @@ footer {
   margin-right: 10%;
   margin-top: 5%;
   padding-bottom: 10%;
-}
-
-@media (max-width: 370px) {
-  .box3 {
-    display: none;
-  }
-  .box5 {
-    width: 35%;
-  }
-  .box4 {
-    grid-gap: 8%;
-    padding: 3%;
-    padding-top: 10%;
-    padding-bottom: 10%;
-  }
-  .Tree-planting img {
-    left: 10%;
-  }
-  .Education-Training img {
-    left: 10%;
-  }
-  .Advocacy-Campaigning img {
-    left: 10%;
-  }
-  .container4 button {
-    width: 35%;
-  }
-  .box6 {
-    width: 35%;
-  }
-  .Education-Training button {
-    top: 90%;
-  }
 }
