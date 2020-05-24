@@ -175,9 +175,9 @@ header ul {
   margin-top: 20%;
 }
 .Tree-planting img {
-  margin-left: 50%;
-transform: translateX(-50%);
-margin-top: -10%;
+ width: 80%;
+ height: 150px;
+ margin: -25px auto 0;
 }
 .Tree-planting h3 {
   font-size: 15px;
@@ -207,9 +207,9 @@ margin-top: -10%;
   margin-top: 20%;
 }
 .Education-Training img {
-margin-left: 50%;
-transform: translateX(-50%);
-margin-top: -10%;
+width: 80%;
+height: 150px;
+margin:-25px auto 0 ;
 }
 .Education-Training h3 {
   font-size: 15px;
@@ -239,9 +239,9 @@ margin-top: -10%;
   margin-top: 20%;
 }
 .Advocacy-Campaigning img {
-  margin-left: 50%;
-transform: translateX(-50%);
-margin-top: -10%;
+ width: 80%;
+ height: 150px;
+margin: -25px auto 0;
 }
 .Advocacy-Campaigning h3 {
   font-size: 15px;
@@ -278,6 +278,7 @@ margin-top: -10%;
   line-height: 32px;
   font-size: 1.5rem;
   padding: 20px;
+  font-family: flood-std, sans-serif;
 }
 .hunger-issue button {
   height: 30px;
@@ -607,6 +608,7 @@ position: relative;
   color: black;
 }
 footer {
+  font-family: flood-std, sans-serif;
   text-align: end;
   margin-right: 10%;
   margin-top: 3%;
