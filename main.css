@@ -114,7 +114,7 @@ header ul {
 .content {
   background-color: #C1F7D5;
   display: grid;
-  grid-gap: 8%;
+  grid-gap: 10%;
   padding-top: 15%;
   padding-bottom: 15%;
   padding-left: 20px;
@@ -410,7 +410,7 @@ margin: -25px auto 0;
 .Balki {
   background-color:#354463;
   padding: 6%;
-  max-width: 80%;
+  width: 80%;
   margin:10% auto;
 }
 .Balki p {
@@ -465,7 +465,9 @@ margin-top: 20px;
 .save-future h1 {
   color: white;
   margin-top: 10%;
+  margin-left: 20%;
   text-align: center;
+  max-width: 60%;
   letter-spacing: 4px;
   font-family: flood-std, sans-serif;
 }
@@ -562,6 +564,8 @@ position: relative;
 }
 .subscription h3 {
  font-size: 18px;
+ max-width: 90%;
+ 
 }
 .subscription button {
   height: 30px;
@@ -591,11 +595,13 @@ position: relative;
 .green {
   flex: 0 0 50%;
   font-size: 13px;
+  max-width: 30%;
 }
 .contact {
   font-size: 12px;
   line-height: 20px;
   flex: 0 0 50%;
+  margin-left: 20%;
 }
 .follow {
   font-size: 12px;
@@ -622,4 +628,316 @@ footer {
   margin-top: 3%;
   padding-bottom: 10%;
   font-size: 1.7rem;
+}
+
+@media (min-width:600px){
+  header{
+    flex-direction: column;
+  }
+  header ul{
+  display: flex; 
+    
+ }
+ .about{
+   margin-left: 48px;
+ }
+ .our{
+   margin-left: 45px;
+ }
+ .news{
+   margin-left:45px ;
+ }
+ header h3{
+   margin-top: 80px;
+   margin-left: 45px;
+ }
+ #btn{
+   width: 100px;
+   position: absolute;
+   top: 18%;
+   right: 5%;
+ }
+ .Stop-change{
+   width: 100%;
+}
+.heading{
+  margin-left:2%;
+}
+.threat-women{
+  max-width: 95%;
+  height: 190px;
+}
+.issue{
+  left: 10%;
+}
+.threat-women h2{
+  font-size: 20px;
+  padding-top: 8%;
+  text-align: start;
+  margin-left: 10%;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+}
+.threat-women a{
+  margin-left: 52px;
+}
+.threat-women span{
+  margin-left: 0px;
+}
+.take-action{
+  width: 100%;
+}
+.take{
+  left: 40%;
+}
+.content{
+  grid-gap:14%;
+  padding-left: 8%;
+  padding-top: 6%;
+  padding-bottom: 8%;
+  padding-right: 8%;
+}
+.what-we-do{
+  width:100%;
+}
+.we-do{
+padding: 2%; 
+margin-right: 66%; 
+}
+.what-we-do p{
+  text-align: start;
+  font-size: 18px;
+  max-width: 92%;
+  word-spacing: 5px;
+  line-height: 24px;
+}
+.Tree-planting {
+  
+  height: 240px;
+  width: 95%;
+  background-color: white;
+  margin-top: 12%;
+  position: relative;
+}
+.Tree-planting img {
+ width: 40%;
+ 
+ margin-right: 240px;
+}
+
+
+.Tree-planting h3 {
+  max-width: 25%;
+  margin-left: 51%;
+  margin-top: -20%;
+  
+}
+.Tree-planting p {
+  font-size: 13px;
+  margin-top: 2%;
+ margin-left: 52%;
+ max-width: 50%;
+ padding-right: 3%;
+}
+.Tree-planting button {
+  width:23%;
+position: absolute;
+top: 55%;
+right: 25%;
+}
+.Education-Training {
+  
+  height: 240px;
+  width: 95%;
+  background-color: white;
+  margin-top: 12%;
+  position: relative;
+}
+.Education-Training img {
+ width: 40%;
+ 
+ margin-right: 240px;
+}
+
+
+.Education-Training h3 {
+  max-width: 25%;
+  margin-left: 51%;
+  margin-top: -20%;
+  
+}
+.Education-Training p {
+  font-size: 13px;
+  margin-top: 2%;
+ margin-left: 52%;
+ max-width: 50%;
+ padding-right: 3%;
+}
+.Education-Training button {
+  width:23%;
+position: absolute;
+top: 55%;
+right: 25%;
+}
+.Advocacy-Campaigning {
+  
+  height: 240px;
+  width: 95%;
+  background-color: white;
+  margin-top: 12%;
+  position: relative;
+}
+.Advocacy-Campaigning img {
+ width: 40%;
+ 
+ margin-right: 240px;
+}
+
+
+.Advocacy-Campaigning h3 {
+  max-width: 25%;
+  margin-left: 51%;
+  margin-top: -20%;
+  
+}
+.Advocacy-Campaigning p {
+  font-size: 13px;
+  margin-top: 2%;
+ margin-left: 52%;
+ max-width: 50%;
+ padding-right: 3%;
+}
+.Advocacy-Campaigning button {
+  width:23%;
+position: absolute;
+top: 55%;
+right: 25%;
+}
+.hunger-issue{
+  width: 100%;
+}
+.hunger-issue h1{
+max-width: 150px;
+padding: 0;
+padding-top: 45px;
+margin-left: 40px;
+}
+.hunger-issue button{
+margin-top: 25px;
+margin-left: 40px;
+}
+.boxes{
+  align-items: flex-end;
+  margin-top:-300px;
+  margin-right: 35px;
+}
+.info1{
+  width: 60%;
+}
+.info2{
+  width: 60%;
+}
+.info3{
+  width: 60%;
+}
+.info4{
+  width: 60%;
+}
+.did-you-know{
+margin-right: 200px;
+}
+.story{
+padding: 1.4%;
+left: 15%;
+top: -5%;
+}
+.stories img{
+  height: 300px;
+  margin-left: 30px;
+  
+}
+.Balki{
+ height: 200px;
+ width: 70%;
+margin-;
+}
+.Balki p{
+  text-align: left;
+}
+#but2{
+  
+}
+
+.save-future{
+  width: 100%;
+}
+.save-future h1{
+  text-align: left;
+  margin-left: 40px;
+  max-width: 70%;
+}
+.earth-day{
+  flex-direction: row;
+  margin-top: 8%;
+}
+.earth-day img{
+  width: 200px;
+  height: 220px;
+  margin-left: 40px;
+}
+
+.events{
+  padding: 1%;
+  width: 140px;
+  right: 25%;
+  top: 1%;
+}
+
+.earth-day p{
+  margin-top: 50%;
+}
+
+
+
+
+
+
+.subscription{
+  width: 100%;
+}
+.subscription h3{
+  max-width: 70%;
+}
+#email{
+  width: 70%;
+  text-align: left;
+  padding-left: 2%;
+}
+.subscription button{
+  width:25% ;
+}
+.green {
+  flex: 0 0 33%;
+ margin-left: -5%;
+}
+.contact {
+  margin-left: 10%;
+  flex: 0 0 33%;
+ 
+}
+.follow {
+  margin-top: -21%;
+  flex: 0 0 33%;
+ margin-left: 75%;
+}
+
+.learn-more {
+  
+margin-left: 35%;
+}
+footer{
+  margin-top: -26%;
+  text-align: left;
+  margin-left: 70%;
+}
 }
