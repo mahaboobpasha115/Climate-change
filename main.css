@@ -10,7 +10,6 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  
 }
 header h3 {
   margin-left: 20px;
@@ -19,7 +18,7 @@ header h3 {
 header ul {
   list-style: none;
   margin-top: 15px;
-  margin-right:20px ;
+  margin-right: 20px;
   line-height: 30px;
   font-size: 13px;
 }
@@ -29,11 +28,11 @@ header ul {
   border-radius: 20px;
   margin-left: 10%;
   margin-top: 5%;
-  background-color: #C1F7D5;
-  border: 1px solid #C1F7D5;
+  background-color: #c1f7d5;
+  border: 1px solid #c1f7d5;
 }
 .Stop-change {
-  background: #C1F7D5;
+  background: #c1f7d5;
   background-image: url(images/bg1.jpg);
   background-size: cover;
   background-position: top;
@@ -64,10 +63,8 @@ header ul {
   font-size: 14px;
   text-align: center;
   position: absolute;
-  left:25%;
+  left: 25%;
   top: -7%;
- 
-  
 }
 .threat-women {
   height: 180px;
@@ -75,7 +72,7 @@ header ul {
   margin: 0 auto;
   max-width: 400px;
   background-color: white;
-  margin:80px auto 20px auto;
+  margin: 80px auto 20px auto;
   position: relative;
   max-width: 480px;
 }
@@ -83,7 +80,7 @@ header ul {
   font-size: 16px;
   text-align: center;
   padding-top: 15%;
-  
+
   letter-spacing: 1.3px;
 }
 .threat-women a {
@@ -96,7 +93,7 @@ header ul {
 }
 .take-action {
   width: 95%;
-  margin:0 auto;
+  margin: 0 auto;
   position: relative;
 }
 .take {
@@ -105,26 +102,24 @@ header ul {
   background-color: #354463;
   color: white;
   text-align: center;
-  padding:6px;
+  padding: 6px;
   font-size: 14px;
   margin: -15px auto 0;
   position: absolute;
   left: 30%;
 }
 .content {
-  background-color: #C1F7D5;
+  background-color: #c1f7d5;
   display: grid;
   grid-gap: 10%;
   padding-top: 15%;
   padding-bottom: 15%;
   padding-left: 20px;
   padding-right: 20px;
-  
 }
 .content p {
   font-size: 11px;
   line-height: 20px;
-
 }
 
 .learn {
@@ -178,13 +173,12 @@ header ul {
   max-width: 470px;
 }
 .Tree-planting img {
- width: 80%;
- height: 150px;
- margin: -25px auto 0;
- max-width: 470px;
+  width: 80%;
+  height: 150px;
+  margin: -25px auto 0;
+  max-width: 470px;
 }
 .Tree-planting h3 {
- 
   color: #354463;
   text-align: center;
   margin-top: 8%;
@@ -193,16 +187,16 @@ header ul {
   width: 90%;
   font-size: 15px;
   color: #354463;
- margin: 20px auto 10px;
+  margin: 20px auto 10px;
 }
 .Tree-planting button {
-  background-color: #C1F7D5;
+  background-color: #c1f7d5;
   color: black;
   height: 30px;
   width: 40%;
   border-radius: 20px;
-  border: 1px solid #C1F7D5;
-  margin:3% 30%;
+  border: 1px solid #c1f7d5;
+  margin: 3% 30%;
 }
 .Education-Training {
   text-align: center;
@@ -213,12 +207,11 @@ header ul {
   margin-top: 20%;
 }
 .Education-Training img {
-width: 80%;
-height: 150px;
-margin:-25px auto 0 ;
+  width: 80%;
+  height: 150px;
+  margin: -25px auto 0;
 }
 .Education-Training h3 {
-  
   color: #354463;
   text-align: center;
   margin-top: 8%;
@@ -227,16 +220,16 @@ margin:-25px auto 0 ;
   width: 90%;
   font-size: 15px;
   color: #354463;
-  margin:20px auto 10px;
+  margin: 20px auto 10px;
 }
 .Education-Training button {
-  background-color: #C1F7D5;
+  background-color: #c1f7d5;
   color: black;
   height: 30px;
   width: 40%;
   border-radius: 20px;
-  border: 1px solid #C1F7D5;
-  margin:5% 30%;
+  border: 1px solid #c1f7d5;
+  margin: 5% 30%;
 }
 .Advocacy-Campaigning {
   text-align: center;
@@ -247,28 +240,27 @@ margin:-25px auto 0 ;
   margin-top: 20%;
 }
 .Advocacy-Campaigning img {
- width: 80%;
- height: 150px;
-margin: -25px auto 0;
+  width: 80%;
+  height: 150px;
+  margin: -25px auto 0;
 }
 .Advocacy-Campaigning h3 {
- 
-  color:#354463;
+  color: #354463;
   margin-top: 8%;
   text-align: center;
 }
 .Advocacy-Campaigning p {
   font-size: 15px;
-  color:#354463;
-  margin:20px auto 10px ;
+  color: #354463;
+  margin: 20px auto 10px;
 }
 .Advocacy-Campaigning button {
-  background-color: #C1F7D5;
+  background-color: #c1f7d5;
   color: black;
   height: 30px;
   width: 40%;
   border-radius: 20px;
-  border: 1px solid #C1F7D5;
+  border: 1px solid #c1f7d5;
   margin: 5% 30%;
 }
 .hunger-issue {
@@ -277,7 +269,7 @@ margin: -25px auto 0;
   background-clip: unset;
   background-size: cover;
   width: 95%;
-  margin:0 auto;
+  margin: 0 auto;
 }
 .hunger-issue h1 {
   color: white;
@@ -292,9 +284,9 @@ margin: -25px auto 0;
 .hunger-issue button {
   height: 30px;
   width: 130px;
-  background-color: #C1F7D5;
+  background-color: #c1f7d5;
   border-radius: 20px;
-  border: 1px solid #C1F7D5;
+  border: 1px solid #c1f7d5;
   margin-left: 20px;
 }
 .boxes {
@@ -302,7 +294,6 @@ margin: -25px auto 0;
   flex-direction: column;
   align-items: center;
   margin-top: 15%;
-  
 }
 
 .did-you-know {
@@ -310,20 +301,17 @@ margin: -25px auto 0;
   width: 120px;
   text-align: center;
   font-size: 12px;
-  background-color:#354463;
+  background-color: #354463;
   color: white;
   padding: 2%;
   margin-top: 10%;
-  
- 
-  
 }
 .info1 {
   background-color: white;
   width: 80%;
   display: flex;
   padding: 5%;
- position: relative;
+  position: relative;
 }
 .info1 p {
   font-size: 12px;
@@ -368,18 +356,17 @@ margin: -25px auto 0;
   font-size: 12px;
 }
 .social {
- position: absolute;
- right: 10%;
- 
+  position: absolute;
+  right: 10%;
 }
-#face{
+#face {
   margin-top: 12px;
 }
 .icon {
   height: 25px;
   width: 25px;
   border-radius: 50%;
-  background-color: #C1F7D5;
+  background-color: #c1f7d5;
   margin-top: 10%;
   text-align: center;
   padding: 8%;
@@ -395,7 +382,7 @@ margin: -25px auto 0;
   margin-top: 10%;
   position: relative;
 }
-.stories img{
+.stories img {
   margin: 0 auto;
 }
 .story {
@@ -410,10 +397,10 @@ margin: -25px auto 0;
   top: -6%;
 }
 .Balki {
-  background-color:#354463;
+  background-color: #354463;
   padding: 6%;
   width: 80%;
-  margin:10% auto;
+  margin: 10% auto;
 }
 .Balki p {
   color: white;
@@ -426,28 +413,26 @@ margin: -25px auto 0;
 #but2 {
   height: 30px;
   width: 30%;
-  background-color: #C1F7D5;
+  background-color: #c1f7d5;
   border-radius: 20px;
-  border: 1px solid #C1F7D5;
+  border: 1px solid #c1f7d5;
   margin-left: 33%;
   margin-top: 7%;
 }
-.indicator{
-display: flex;
-justify-content: center;
-margin-top: 20px;
-
+.indicator {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
-.indi{
+.indi {
   height: 10px;
   width: 10px;
   border-radius: 50%;
-  background:rgba(0,0,0,0.3);
-  
+  background: rgba(0, 0, 0, 0.3);
 
   margin-right: 8px;
 }
-.indi1{
+.indi1 {
   height: 10px;
   width: 10px;
   border-radius: 50%;
@@ -455,33 +440,30 @@ margin-top: 20px;
   border-color: 1px solid black;
   margin-right: 8px;
 }
-.lets-take-action{
+.lets-take-action {
   width: 95%;
-  margin-top:10% ;
-  margin:0 auto;
+  margin-top: 10%;
+  margin: 0 auto;
   background-color: #354463;
   margin-top: 10%;
- 
 }
 
-.lets-take-action h1{
+.lets-take-action h1 {
   color: white;
   font-size: 30px;
   font-family: flood-std, sans-serif;
-text-align: center;
-max-width: 60%;
-padding-top: 15%;
-margin-left: 20%;
-
+  text-align: center;
+  max-width: 60%;
+  padding-top: 15%;
+  margin-left: 20%;
 }
-.flexuse{
+.flexuse {
   display: flex;
   flex-direction: column;
-align-items: center;
+  align-items: center;
 }
 
-
-.event{
+.event {
   width: 160px;
   height: 30px;
   background-color: white;
@@ -491,26 +473,25 @@ align-items: center;
   left: 28%;
   top: -7%;
 }
-.images{
+.images {
   margin-top: 20%;
   text-align: center;
   align-items: center;
   position: relative;
 }
-.images img{
+.images img {
   height: 250px;
-  width: 80%; 
+  width: 80%;
 }
-.earth-day h2{
+.earth-day h2 {
   text-align: center;
   color: white;
   font-size: 18px;
   margin-top: 5%;
   margin-left: 13%;
   width: 70%;
-
 }
-.earth-day p{
+.earth-day p {
   text-align: center;
   color: white;
   margin-top: 5%;
@@ -518,17 +499,16 @@ align-items: center;
   width: 80%;
   margin-left: 10%;
 }
-.earth-day button{
+.earth-day button {
   height: 30px;
   width: 120px;
   border-radius: 25px;
-  border: 1px solid #C1F7D5;
-  background-color: #C1F7D5;
-  margin:25px 0 0 120px;
-
+  border: 1px solid #c1f7d5;
+  background-color: #c1f7d5;
+  margin: 25px 0 0 120px;
 }
 
-.latest{
+.latest {
   width: 160px;
   height: 30px;
   background-color: white;
@@ -538,26 +518,65 @@ align-items: center;
   top: -6%;
   left: 28%;
 }
-#read{
+.flexx {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.images2 {
+  margin-top: 20%;
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+.images2 img {
+  height: 250px;
+  width: 80%;
+}
+.earth-day2 h2 {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  margin-top: 5%;
+  margin-left: 13%;
+  width: 70%;
+}
+.earth-day2 p {
+  text-align: center;
+  color: white;
+  margin-top: 5%;
+  font-size: 12px;
+  width: 80%;
+  margin-left: 10%;
+}
+.earth-day2 button {
+  height: 30px;
+  width: 120px;
+  border-radius: 25px;
+  border: 1px solid #c1f7d5;
+  background-color: #c1f7d5;
+  margin: 25px 0 0 120px;
+}
+#read {
   margin-bottom: 20px;
 }
 
 .subscription {
   width: 95%;
-  margin:0 auto;
-  background-color: #C1F7D5;
+  margin: 0 auto;
+  background-color: #c1f7d5;
   padding: 5%;
-
 }
 .subscription h3 {
- font-size: 18px;
- max-width: 90%;
- 
+  font-size: 18px;
+  max-width: 90%;
 }
 .subscription button {
   height: 30px;
   width: 30%;
-  color: #C1F7D5;
+  color: #c1f7d5;
   background-color: #354463;
   border-radius: 20px;
   border: 1px solid #354463;
@@ -617,316 +636,365 @@ footer {
   font-size: 1.7rem;
 }
 
-@media (min-width:600px){
-  header{
+@media (min-width: 600px) {
+  header {
     flex-direction: column;
   }
-  header ul{
-  display: flex; 
-    
- }
- .about{
-   margin-left: 48px;
- }
- .our{
-   margin-left: 45px;
- }
- .news{
-   margin-left:45px ;
- }
- header h3{
-   margin-top: 80px;
-   margin-left: 45px;
- }
- #btn{
-   width: 100px;
-   position: absolute;
-   top: 18%;
-   right: 5%;
- }
- .Stop-change{
-   width: 100%;
-}
-.heading{
-  margin-left:2%;
-}
-.threat-women{
-  max-width: 95%;
-  height: 190px;
-}
-.issue{
-  left: 10%;
-}
-.threat-women h2{
-  font-size: 20px;
-  padding-top: 8%;
-  text-align: start;
-  margin-left: 10%;
-  letter-spacing: 2px;
+  header ul {
+    display: flex;
+  }
+  .about {
+    margin-left: 48px;
+  }
+  .our {
+    margin-left: 45px;
+  }
+  .news {
+    margin-left: 45px;
+  }
+  header h3 {
+    margin-top: 80px;
+    margin-left: 45px;
+  }
+  #btn {
+    width: 100px;
+    position: absolute;
+    top: 18%;
+    right: 5%;
+  }
+  .Stop-change {
+    width: 100%;
+  }
+  .heading {
+    margin-left: 2%;
+  }
+  .threat-women {
+    max-width: 95%;
+    height: 190px;
+  }
+  .issue {
+    left: 10%;
+  }
+  .threat-women h2 {
+    font-size: 20px;
+    padding-top: 8%;
+    text-align: start;
+    margin-left: 10%;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+  }
+  .threat-women a {
+    margin-left: 52px;
+  }
+  .threat-women span {
+    margin-left: 0px;
+  }
+  .take-action {
+    width: 100%;
+  }
+  .take {
+    left: 40%;
+  }
+  .content {
+    grid-gap: 14%;
+    padding-left: 8%;
+    padding-top: 6%;
+    padding-bottom: 8%;
+    padding-right: 8%;
+  }
+  .what-we-do {
+    width: 100%;
+  }
+  .we-do {
+    padding: 2%;
+    margin-right: 66%;
+  }
+  .what-we-do p {
+    text-align: start;
+    font-size: 18px;
+    max-width: 92%;
+    word-spacing: 5px;
+    line-height: 24px;
+  }
+  .Tree-planting {
+    height: 240px;
+    width: 95%;
+    background-color: white;
+    margin-top: 12%;
+    position: relative;
+  }
+  .Tree-planting img {
+    width: 40%;
+
+    margin-right: 240px;
+  }
+
+  .Tree-planting h3 {
+    max-width: 25%;
+    margin-left: 51%;
+    margin-top: -20%;
+  }
+  .Tree-planting p {
+    font-size: 13px;
+    margin-top: 2%;
+    margin-left: 52%;
+    max-width: 50%;
+    padding-right: 3%;
+  }
+  .Tree-planting button {
+    width: 23%;
+    position: absolute;
+    top: 55%;
+    right: 25%;
+  }
+  .Education-Training {
+    height: 240px;
+    width: 95%;
+    background-color: white;
+    margin-top: 12%;
+    position: relative;
+  }
+  .Education-Training img {
+    width: 40%;
+
+    margin-right: 240px;
+  }
+
+  .Education-Training h3 {
+    max-width: 25%;
+    margin-left: 51%;
+    margin-top: -20%;
+  }
+  .Education-Training p {
+    font-size: 13px;
+    margin-top: 2%;
+    margin-left: 52%;
+    max-width: 50%;
+    padding-right: 3%;
+  }
+  .Education-Training button {
+    width: 23%;
+    position: absolute;
+    top: 55%;
+    right: 25%;
+  }
+  .Advocacy-Campaigning {
+    height: 240px;
+    width: 95%;
+    background-color: white;
+    margin-top: 12%;
+    position: relative;
+  }
+  .Advocacy-Campaigning img {
+    width: 40%;
+
+    margin-right: 240px;
+  }
+
+  .Advocacy-Campaigning h3 {
+    max-width: 25%;
+    margin-left: 51%;
+    margin-top: -20%;
+  }
+  .Advocacy-Campaigning p {
+    font-size: 13px;
+    margin-top: 2%;
+    margin-left: 52%;
+    max-width: 50%;
+    padding-right: 3%;
+  }
+  .Advocacy-Campaigning button {
+    width: 23%;
+    position: absolute;
+    top: 55%;
+    right: 25%;
+  }
+  .hunger-issue {
+    width: 100%;
+  }
+  .hunger-issue h1 {
+    max-width: 150px;
+    padding: 0;
+    padding-top: 45px;
+    margin-left: 40px;
+  }
+  .hunger-issue button {
+    margin-top: 25px;
+    margin-left: 40px;
+  }
+  .boxes {
+    align-items: flex-end;
+    margin-top: -300px;
+    margin-right: 35px;
+  }
+  .info1 {
+    width: 60%;
+  }
+  .info2 {
+    width: 60%;
+  }
+  .info3 {
+    width: 60%;
+  }
+  .info4 {
+    width: 60%;
+  }
+  .did-you-know {
+    margin-right: 200px;
+  }
+  .story {
+    padding: 1.4%;
+    left: 15%;
+    top: -5%;
+  }
+  .stories img {
+    height: 300px;
+    margin-left: 30px;
+  }
+  .Balki {
+    height: 200px;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: -40px;
+    margin-left: 100px;
+    position: relative;
+  }
+  .Balki p {
+    text-align: left;
+  }
+  #but2 {
+    margin-left: 95px;
+  }
+  .indicator {
+    justify-content: start;
+    flex-direction: column;
+    margin-top: -180px;
+    margin-left: 35px;
+  }
+  .indi {
+    margin-bottom: 3px;
+  }
+  .indi1 {
+    margin-bottom: 3px;
+  }
+
+  .lets-take-action {
+    width: 100%;
+    margin-top: 30%;
+  }
+  .lets-take-action h1 {
+    text-align: left;
+    max-width: 70%;
+    margin-left: 35px;
+  }
+  .flexuse {
+    flex-direction: row;
+  }
+  .images img {
+    height: 250px;
+    width: 250px;
+    margin-left: 30px;
+    margin-top: -90px;
+  }
+  .event {
+    width: 100px;
+    top: -55%;
+    left: 110%;
+  }
+  .earth-day h2 {
+    margin-top: 170px;
+    text-align: left;
+  margin-left: 28px;
+  width: 60%;
   word-spacing: 5px;
-}
-.threat-women a{
-  margin-left: 52px;
-}
-.threat-women span{
-  margin-left: 0px;
-}
-.take-action{
-  width: 100%;
-}
-.take{
-  left: 40%;
-}
-.content{
-  grid-gap:14%;
-  padding-left: 8%;
-  padding-top: 6%;
-  padding-bottom: 8%;
-  padding-right: 8%;
-}
-.what-we-do{
-  width:100%;
-}
-.we-do{
-padding: 2%; 
-margin-right: 66%; 
-}
-.what-we-do p{
-  text-align: start;
-  font-size: 18px;
-  max-width: 92%;
+  }
+  .earth-day p{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 28px;
+    max-width: 60%;
+    line-height: 18px;
+  }
+  .earth-day button{
+   margin:0;
+   margin-top: 20px;
+   margin-left: 30px;
+  }
+  .flexx {
+    flex-direction: row;
+  }
+  .images2{
+order: 1;
+  }
+  .earth-day2{
+    order: 0;
+  }
+  .images2 img {
+    height: 250px;
+    width: 250px;
+    margin-right: 40px;
+    margin-top: -200px;
+  }
+  .latest{
+    left: -97%;
+    top: -370%;
+    width: 140px;
+  }
+  .earth-day2 h2 {
+    margin-top: 100px;
+    text-align: left;
+  margin-left: 28px;
+  width: 60%;
   word-spacing: 5px;
-  line-height: 24px;
-}
-.Tree-planting {
+  }
+  .earth-day2 p{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 28px;
+    max-width: 60%;
+    line-height: 18px;
+  }
+  .earth-day2 button{
+   margin:0;
+   margin-top: 20px;
+   margin-left: 30px;
+  }
   
-  height: 240px;
-  width: 95%;
-  background-color: white;
-  margin-top: 12%;
-  position: relative;
-}
-.Tree-planting img {
- width: 40%;
- 
- margin-right: 240px;
-}
 
+  .subscription {
+    width: 100%;
+  }
+  .subscription h3 {
+    max-width: 70%;
+  }
+  #email {
+    width: 70%;
+    text-align: left;
+    padding-left: 2%;
+  }
+  .subscription button {
+    width: 25%;
+  }
+  .green {
+    flex: 0 0 33%;
+    margin-left: -5%;
+  }
+  .contact {
+    margin-left: 10%;
+    flex: 0 0 33%;
+  }
+  .follow {
+    margin-top: -21%;
+    flex: 0 0 33%;
+    margin-left: 75%;
+  }
 
-.Tree-planting h3 {
-  max-width: 25%;
-  margin-left: 51%;
-  margin-top: -20%;
-  
-}
-.Tree-planting p {
-  font-size: 13px;
-  margin-top: 2%;
- margin-left: 52%;
- max-width: 50%;
- padding-right: 3%;
-}
-.Tree-planting button {
-  width:23%;
-position: absolute;
-top: 55%;
-right: 25%;
-}
-.Education-Training {
-  
-  height: 240px;
-  width: 95%;
-  background-color: white;
-  margin-top: 12%;
-  position: relative;
-}
-.Education-Training img {
- width: 40%;
- 
- margin-right: 240px;
-}
-
-
-.Education-Training h3 {
-  max-width: 25%;
-  margin-left: 51%;
-  margin-top: -20%;
-  
-}
-.Education-Training p {
-  font-size: 13px;
-  margin-top: 2%;
- margin-left: 52%;
- max-width: 50%;
- padding-right: 3%;
-}
-.Education-Training button {
-  width:23%;
-position: absolute;
-top: 55%;
-right: 25%;
-}
-.Advocacy-Campaigning {
-  
-  height: 240px;
-  width: 95%;
-  background-color: white;
-  margin-top: 12%;
-  position: relative;
-}
-.Advocacy-Campaigning img {
- width: 40%;
- 
- margin-right: 240px;
-}
-
-
-.Advocacy-Campaigning h3 {
-  max-width: 25%;
-  margin-left: 51%;
-  margin-top: -20%;
-  
-}
-.Advocacy-Campaigning p {
-  font-size: 13px;
-  margin-top: 2%;
- margin-left: 52%;
- max-width: 50%;
- padding-right: 3%;
-}
-.Advocacy-Campaigning button {
-  width:23%;
-position: absolute;
-top: 55%;
-right: 25%;
-}
-.hunger-issue{
-  width: 100%;
-}
-.hunger-issue h1{
-max-width: 150px;
-padding: 0;
-padding-top: 45px;
-margin-left: 40px;
-}
-.hunger-issue button{
-margin-top: 25px;
-margin-left: 40px;
-}
-.boxes{
-  align-items: flex-end;
-  margin-top:-300px;
-  margin-right: 35px;
-}
-.info1{
-  width: 60%;
-}
-.info2{
-  width: 60%;
-}
-.info3{
-  width: 60%;
-}
-.info4{
-  width: 60%;
-}
-.did-you-know{
-margin-right: 200px;
-}
-.story{
-padding: 1.4%;
-left: 15%;
-top: -5%;
-}
-.stories img{
-  height: 300px;
-  margin-left: 30px;
-  
-}
-.Balki{
- height: 200px;
- width: 70%;
- margin: 0 auto;
- margin-top: -10px;
-position: relative;
-}
-.Balki p{
-  text-align: left;
-}
-#but2{
-  
-}
-
-.save-future{
-  width: 100%;
-}
-.save-future h1{
-  text-align: left;
-  margin-left: 40px;
-  max-width: 70%;
-}
-.earth-day{
-  flex-direction: row;
-  margin-top: 8%;
-}
-.earth-day img{
-  width: 200px;
-  height: 220px;
-  margin-left: 40px;
-}
-
-.events{
-  padding: 1%;
-  width: 140px;
-  right: 25%;
-  top: 1%;
-}
-
-.earth-day p{
-  margin-top: 50%;
-}
-
-
-
-
-
-
-.subscription{
-  width: 100%;
-}
-.subscription h3{
-  max-width: 70%;
-}
-#email{
-  width: 70%;
-  text-align: left;
-  padding-left: 2%;
-}
-.subscription button{
-  width:25% ;
-}
-.green {
-  flex: 0 0 33%;
- margin-left: -5%;
-}
-.contact {
-  margin-left: 10%;
-  flex: 0 0 33%;
- 
-}
-.follow {
-  margin-top: -21%;
-  flex: 0 0 33%;
- margin-left: 75%;
-}
-
-.learn-more {
-  
-margin-left: 35%;
-}
-footer{
-  margin-top: -26%;
-  text-align: left;
-  margin-left: 70%;
-}
+  .learn-more {
+    margin-left: 35%;
+  }
+  footer {
+    margin-top: -26%;
+    text-align: left;
+    margin-left: 70%;
+  }
 }
