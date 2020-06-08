@@ -466,11 +466,13 @@ margin-top: 20px;
 
 .lets-take-action h1{
   color: white;
+  font-size: 30px;
   font-family: flood-std, sans-serif;
 text-align: center;
-max-width: 55%;
+max-width: 60%;
 padding-top: 15%;
-margin-left: 22%;
+margin-left: 20%;
+
 }
 .flexuse{
   display: flex;
@@ -504,7 +506,9 @@ align-items: center;
   color: white;
   font-size: 18px;
   margin-top: 5%;
-  
+  margin-left: 13%;
+  width: 70%;
+
 }
 .earth-day p{
   text-align: center;
@@ -520,7 +524,7 @@ align-items: center;
   border-radius: 25px;
   border: 1px solid #C1F7D5;
   background-color: #C1F7D5;
-  margin:25px 0 0 110px;
+  margin:25px 0 0 120px;
 
 }
 
