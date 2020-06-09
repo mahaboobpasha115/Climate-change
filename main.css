@@ -1054,23 +1054,22 @@ footer {
   .earth-day h2 {
     margin-top: 140px;
     line-height: 25px;
-   
+
     width: 50%;
     word-spacing: 5px;
   }
   .earth-day p {
-   font-size: 14px;
+    font-size: 14px;
     margin-top: 30px;
     margin-left: 55px;
     max-width: 55%;
     line-height: 20px;
   }
   .earth-day button {
-  
     margin-top: 30px;
     margin-left: 55px;
   }
-  
+
   .images2 {
     order: 1;
   }
@@ -1086,18 +1085,17 @@ footer {
   }
   .latest {
     left: -100%;
-    top:-45%;
-    
+    top: -45%;
   }
   .earth-day2 h2 {
     margin-top: 180px;
-   max-width: 52%;
+    max-width: 52%;
     margin-left: 70px;
     width: 60%;
     line-height: 25px;
   }
   .earth-day2 p {
-   font-size: 14px;
+    font-size: 14px;
     margin-left: 70px;
     max-width: 50%;
     line-height: 18px;
@@ -1106,5 +1104,8 @@ footer {
     margin: 0;
     margin-top: 40px;
     margin-left: 70px;
+  }
+  .green {
+    font-size: 16px;
   }
 }
