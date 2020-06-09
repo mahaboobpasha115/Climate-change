@@ -83,14 +83,14 @@ header ul {
 
   letter-spacing: 1.3px;
 }
-.threat-women a {
+.threat-women p {
   color: black;
   font-size: 12px;
-  margin-left: 15%;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
 }
-.threat-women span {
-  margin-left: 32%;
-}
+
 .take-action {
   width: 95%;
   margin: 0 auto;
@@ -524,7 +524,6 @@ header ul {
   align-items: center;
 }
 
-
 .images2 {
   margin-top: 20%;
   text-align: center;
@@ -653,13 +652,13 @@ footer {
     margin-left: 45px;
   }
   header h3 {
-    margin-top: 80px;
+    margin-top: 20px;
     margin-left: 45px;
   }
   #btn {
     width: 100px;
     position: absolute;
-    top: 18%;
+    top: 8%;
     right: 5%;
   }
   .Stop-change {
@@ -669,11 +668,12 @@ footer {
     margin-left: 2%;
   }
   .threat-women {
-    max-width: 95%;
+    max-width: 620px;
     height: 190px;
   }
   .issue {
     left: 10%;
+    max-width: 620px;
   }
   .threat-women h2 {
     font-size: 20px;
@@ -683,8 +683,9 @@ footer {
     letter-spacing: 2px;
     word-spacing: 5px;
   }
-  .threat-women a {
-    margin-left: 52px;
+  .threat-women p {
+    text-align: left;
+    margin-left: 26px;
   }
   .threat-women span {
     margin-left: 0px;
@@ -694,6 +695,7 @@ footer {
   }
   .take {
     left: 40%;
+    max-width: 620px;
   }
   .content {
     grid-gap: 14%;
@@ -707,12 +709,14 @@ footer {
   }
   .we-do {
     padding: 2%;
-    margin-right: 66%;
+    margin-left: -60%;
+    max-width: 320px;
   }
   .what-we-do p {
     text-align: start;
+    margin-left: 12px;
     font-size: 18px;
-    max-width: 92%;
+    max-width: 90%;
     word-spacing: 5px;
     line-height: 24px;
   }
@@ -722,11 +726,12 @@ footer {
     background-color: white;
     margin-top: 12%;
     position: relative;
+    max-width: 620px;
   }
   .Tree-planting img {
     width: 40%;
-
-    margin-right: 240px;
+    max-width: 620px;
+    margin-right: 270px;
   }
 
   .Tree-planting h3 {
@@ -752,12 +757,13 @@ footer {
     width: 95%;
     background-color: white;
     margin-top: 12%;
+    max-width: 620px;
     position: relative;
   }
   .Education-Training img {
     width: 40%;
-
-    margin-right: 240px;
+    max-width: 620px;
+    margin-right: 270px;
   }
 
   .Education-Training h3 {
@@ -783,12 +789,13 @@ footer {
     width: 95%;
     background-color: white;
     margin-top: 12%;
+    max-width: 620px;
     position: relative;
   }
   .Advocacy-Campaigning img {
     width: 40%;
-
-    margin-right: 240px;
+    max-width: 620px;
+    margin-right: 270px;
   }
 
   .Advocacy-Campaigning h3 {
@@ -815,7 +822,9 @@ footer {
   .hunger-issue h1 {
     max-width: 150px;
     padding: 0;
-    padding-top: 45px;
+    font-size: 2rem;
+    line-height: 1.4;
+    padding-top: 60px;
     margin-left: 40px;
   }
   .hunger-issue button {
@@ -824,32 +833,40 @@ footer {
   }
   .boxes {
     align-items: flex-end;
-    margin-top: -300px;
+    margin-top: -354px;
     margin-right: 35px;
   }
   .info1 {
     width: 60%;
+    max-width: 620px;
   }
   .info2 {
     width: 60%;
+    max-width: 620px;
   }
   .info3 {
     width: 60%;
+    max-width: 620px;
   }
   .info4 {
     width: 60%;
+    max-width: 620px;
   }
   .did-you-know {
-    margin-right: 200px;
+    margin-right: 100px;
+    width: 200px;
+    padding: 1.5%;
   }
   .story {
     padding: 1.4%;
     left: 15%;
     top: -5%;
+    max-width: 620px;
   }
   .stories img {
     height: 300px;
     margin-left: 30px;
+    max-width: 620px;
   }
   .Balki {
     height: 200px;
@@ -857,6 +874,7 @@ footer {
     margin: 0 auto;
     margin-top: -40px;
     margin-left: 100px;
+    max-width: 620px;
     position: relative;
   }
   .Balki p {
@@ -892,74 +910,75 @@ footer {
   }
   .images img {
     height: 250px;
-    width: 250px;
-    margin-left: 30px;
-    margin-top: -90px;
+    width: 270px;
+    margin-left: 35px;
+    margin-top: -170px;
+    max-width: 620px;
   }
   .event {
     width: 100px;
-    top: -55%;
-    left: 110%;
+    max-width: 620px;
+    left: 118%;
+    top: -200%;
   }
   .earth-day h2 {
-    margin-top: 170px;
+    margin-top: 100px;
     text-align: left;
-  margin-left: 28px;
-  width: 60%;
-  word-spacing: 5px;
+    margin-left: 55px;
+    width: 60%;
+    word-spacing: 5px;
   }
-  .earth-day p{
+  .earth-day p {
     text-align: left;
     margin-top: 20px;
-    margin-left: 28px;
-    max-width: 60%;
+    margin-left: 55px;
+    max-width: 65%;
     line-height: 18px;
   }
-  .earth-day button{
-   margin:0;
-   margin-top: 20px;
-   margin-left: 30px;
+  .earth-day button {
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 55px;
   }
   .flexx {
     flex-direction: row;
   }
-  .images2{
-order: 1;
+  .images2 {
+    order: 1;
   }
-  .earth-day2{
+  .earth-day2 {
     order: 0;
   }
   .images2 img {
     height: 250px;
-    width: 250px;
+    width: 270px;
     margin-right: 40px;
-    margin-top: -200px;
+    margin-top: -180px;
   }
-  .latest{
-    left: -97%;
-    top: -370%;
+  .latest {
+    left: -82%;
+    top: -240%;
     width: 140px;
   }
   .earth-day2 h2 {
     margin-top: 100px;
     text-align: left;
-  margin-left: 28px;
-  width: 60%;
-  word-spacing: 5px;
+    margin-left: 35px;
+    width: 60%;
+    word-spacing: 5px;
   }
-  .earth-day2 p{
+  .earth-day2 p {
     text-align: left;
     margin-top: 20px;
-    margin-left: 28px;
+    margin-left: 35px;
     max-width: 60%;
     line-height: 18px;
   }
-  .earth-day2 button{
-   margin:0;
-   margin-top: 20px;
-   margin-left: 30px;
+  .earth-day2 button {
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 35px;
   }
-  
 
   .subscription {
     width: 100%;
@@ -996,5 +1015,96 @@ order: 1;
     margin-top: -26%;
     text-align: left;
     margin-left: 70%;
+  }
+}
+@media (min-width: 700px) {
+  #btn {
+    margin-top: 0;
+    margin-right: 10%;
+  }
+  .did-you-know {
+    margin-right: 200px;
+  }
+  .latest {
+    left: -132%;
+  }
+  .follow {
+    margin-top: -15%;
+  }
+  footer {
+    margin-top: -22%;
+  }
+  .lets-take-action h1 {
+    text-align: left;
+    max-width: 55%;
+    margin-left: 60px;
+  }
+
+  .images img {
+    width: 320px;
+    height: 300px;
+    margin-top: -180px;
+    margin-left: 60px;
+    max-width: 620px;
+  }
+  .event {
+    left: 115%;
+    top: -140%;
+  }
+  .earth-day h2 {
+    margin-top: 140px;
+    line-height: 25px;
+   
+    width: 50%;
+    word-spacing: 5px;
+  }
+  .earth-day p {
+   font-size: 14px;
+    margin-top: 30px;
+    margin-left: 55px;
+    max-width: 55%;
+    line-height: 20px;
+  }
+  .earth-day button {
+  
+    margin-top: 30px;
+    margin-left: 55px;
+  }
+  
+  .images2 {
+    order: 1;
+  }
+  .earth-day2 {
+    order: 0;
+  }
+  .images2 img {
+    height: 320px;
+    width: 300px;
+    margin-right: 50px;
+    margin-top: -100px;
+    padding-bottom: 10%;
+  }
+  .latest {
+    left: -100%;
+    top:-45%;
+    
+  }
+  .earth-day2 h2 {
+    margin-top: 180px;
+   max-width: 52%;
+    margin-left: 70px;
+    width: 60%;
+    line-height: 25px;
+  }
+  .earth-day2 p {
+   font-size: 14px;
+    margin-left: 70px;
+    max-width: 50%;
+    line-height: 18px;
+  }
+  .earth-day2 button {
+    margin: 0;
+    margin-top: 40px;
+    margin-left: 70px;
   }
 }
