@@ -53,7 +53,7 @@ header ul {
   font-family: flood-std, sans-serif;
 }
 
-.issue {
+.issue  {
   height: 30px;
   width: 140px;
   max-width: 140px;
@@ -626,13 +626,12 @@ header ul {
 .learn-more a {
   color: black;
 }
-footer {
+.climate-changes {
   font-family: flood-std, sans-serif;
   text-align: end;
-  margin-right: 10%;
-  margin-top: 3%;
-  padding-bottom: 10%;
-  font-size: 1.7rem;
+  margin-top: 10%;
+ margin-left: 60%;
+ font-size: 1.3rem;
 }
 
 @media (min-width: 600px) {
@@ -665,7 +664,7 @@ footer {
     width: 100%;
   }
   .heading {
-    margin-left: 2%;
+    margin-left: 1%;
   }
   .threat-women {
     max-width: 620px;
@@ -674,6 +673,7 @@ footer {
   .issue {
     left: 10%;
     max-width: 620px;
+    
   }
   .threat-women h2 {
     font-size: 20px;
@@ -709,7 +709,7 @@ footer {
   }
   .we-do {
     padding: 2%;
-    margin-left: -60%;
+    margin-left: -70%;
     max-width: 320px;
   }
   .what-we-do p {
@@ -864,7 +864,7 @@ footer {
     max-width: 620px;
   }
   .stories img {
-    height: 300px;
+    height: 400px;
     margin-left: 30px;
     max-width: 620px;
   }
@@ -907,6 +907,8 @@ footer {
   }
   .flexuse {
     flex-direction: row;
+    max-width: 768px;
+    margin: 0 auto;
   }
   .images img {
     height: 250px;
@@ -942,6 +944,8 @@ footer {
   }
   .flexx {
     flex-direction: row;
+    max-width: 768px;
+    margin: 0 auto;
   }
   .images2 {
     order: 1;
@@ -996,7 +1000,9 @@ footer {
   }
   .green {
     flex: 0 0 33%;
+    font-size: 1rem;
     margin-left: -5%;
+   
   }
   .contact {
     margin-left: 10%;
@@ -1011,16 +1017,12 @@ footer {
   .learn-more {
     margin-left: 35%;
   }
-  footer {
-    margin-top: -26%;
-    text-align: left;
-    margin-left: 70%;
-  }
+  
 }
 @media (min-width: 700px) {
   #btn {
     margin-top: 0;
-    margin-right: 10%;
+    margin-right: 1%;
   }
   .did-you-know {
     margin-right: 200px;
@@ -1028,12 +1030,8 @@ footer {
   .latest {
     left: -132%;
   }
-  .follow {
-    margin-top: -15%;
-  }
-  footer {
-    margin-top: -22%;
-  }
+  
+ 
   .lets-take-action h1 {
     text-align: left;
     max-width: 55%;
@@ -1045,7 +1043,7 @@ footer {
     height: 300px;
     margin-top: -180px;
     margin-left: 60px;
-    max-width: 620px;
+    max-width: 300px;
   }
   .event {
     left: 115%;
@@ -1082,6 +1080,7 @@ footer {
     margin-right: 50px;
     margin-top: -100px;
     padding-bottom: 10%;
+    max-width: 500px;
   }
   .latest {
     left: -100%;
@@ -1097,8 +1096,8 @@ footer {
   .earth-day2 p {
     font-size: 14px;
     margin-left: 70px;
-    max-width: 50%;
-    line-height: 18px;
+    max-width: 70%;
+    line-height: 1.5;
   }
   .earth-day2 button {
     margin: 0;
@@ -1106,6 +1105,860 @@ footer {
     margin-left: 70px;
   }
   .green {
-    font-size: 16px;
+    font-size: 1.4rem;
+    margin-top: -4%;
+    flex: 0 0 33%;
   }
+  .contact{
+    margin-top:-4%;
+    font-size: 0.9rem;
+    flex:0 0 33%;
+  }
+  .contact span{
+    font-size: 1.2rem;
+  }
+  .follow {
+    margin-top: -17%;
+    font-size: 0.9rem;
+flex: 0 0 33%;
+  }
+  .follow span{
+    font-size: 1.2rem;
+  }
+  .learn-more{
+    font-size: 0.9rem;
+    flex: 0 0 60%;
+  }
+  .learn-more span{
+    font-size: 1.2rem;
+  }
+  .climate-changes{
+    flex: 0 0 40%;
+    margin: 0;
+    margin-left: 50%;
+    margin-top: -17%;
+    font-size: 1.8rem;
+  }
+
+}
+@media (min-width:1024px){
+  header{
+    flex-direction: row;
+    justify-content: left;
+  }
+  header h3{
+    margin-top: 30px;
+    margin-left: 100px;
+  }
+   header ul{
+    margin-top: 48px;
+    margin-left: 60px;
+  }
+  .our{
+    margin-left: 80px;
+  }
+  .news{
+    margin-left: 80px;
+  }
+  #btn{
+    width: 120px;
+    top: 9%;
+    right: 12%;
+  }
+  .Stop-change{
+    margin-top: 20px;
+    display: flex;
+  }
+  .heading{
+    order: 1;
+  margin-left:-150px;
+  margin-top: 10px;
+  line-height: 40px;
+
+  }
+  .threat-women{
+    order: 0;
+    width: 380px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 20px;
+    max-width: 1300px;
+  }
+  .issue{
+    top: -5%;
+    max-width: 1300px;
+  }
+  .threat-women h2{
+    max-width: 75%;
+    margin-top: 15px;
+    line-height: 35px;
+    word-spacing: 10px;
+    font-size: 22px;
+  }
+  .threat-women p{
+    margin-left: 20px;
+  }
+  .content {
+
+    grid-gap: 5%;
+    padding-top:50px;
+    padding-bottom:40px;
+    padding-left:100px;
+    padding-right:8%;
+  }
+  .learn {
+    grid-row: 1/1;
+  }
+  
+  .volunteer {
+    grid-row:1/1 ;
+  }
+  .share {
+    grid-row:1/1 ;
+  }
+  .donate {
+    grid-row:1/1;
+  }
+
+  .we-do{
+    margin-left:-675px;
+    margin-top: 10px;
+    padding: 1.3%;
+    }
+
+.what-we-do p{
+  font-size: 1.4rem;
+  word-spacing: 10px;
+  line-height: 30px;
+  margin-top: 20px;
+}
+.useflex{
+  display: flex;
+}
+
+.Tree-planting {
+  text-align: center;
+  height: 450px;
+  width: 250px;
+  margin-top: 10%;
+  max-width: 470px;
+  margin-left: 20px;
+}
+.Tree-planting img {
+  width: 95%;
+  height: 150px;
+  margin: -25px 0 0 40px;
+  max-width: 470px;
+}
+.Tree-planting h3 {
+  text-align:left;
+  margin-top: 8%;
+  margin-left: 40px;
+  max-width:50%;
+  line-height: 25px;
+}
+.Tree-planting p {
+  margin-left: 40px;
+  padding-right: 22px;
+  margin-top: 10px;
+  font-size: 13px;
+  max-width: 95%;
+  line-height: 25px;
+}
+.Tree-planting button {
+ 
+  height: 30px;
+  width: 40%;
+  margin: 0;
+  margin-top: 150px;
+  margin-right: 50px;
+}
+.Education-Training {
+  text-align: center;
+  height: 450px;
+  width: 250px;
+  margin-top: 10%;
+  max-width: 470px;
+  margin-left: 50px;
+}
+.Education-Training img {
+  width: 95%;
+  height: 150px;
+  margin: -25px 0 0 40px;
+  max-width: 470px;
+}
+.Education-Training h3 {
+  text-align:left;
+  margin-top: 8%;
+  margin-left: 40px;
+  max-width:50%;
+  line-height: 25px;
+}
+.Education-Training p {
+  margin-left: 40px;
+  padding-right: 22px;
+  margin-top: 10px;
+  font-size: 13px;
+  max-width: 95%;
+  line-height: 25px;
+}
+.Education-Training button {
+ 
+  height: 30px;
+  width: 40%;
+  margin: 0;
+  margin-top: 150px;
+  margin-right: 50px;
+}
+.Advocacy-Campaigning {
+  text-align: center;
+  height: 450px;
+  width: 250px;
+  margin-top: 10%;
+  max-width: 470px;
+  margin-left: 20px;
+  margin-left: 50px;
+}
+.Advocacy-Campaigning img {
+  width: 95%;
+  height: 150px;
+  margin: -25px 0 0 40px;
+  max-width: 470px;
+}
+.Advocacy-Campaigning h3 {
+  text-align:left;
+  margin-top: 8%;
+  margin-left: 40px;
+  max-width:60%;
+  line-height: 25px;
+}
+.Advocacy-Campaigning p {
+  margin-left: 40px;
+  padding-right: 22px;
+  margin-top: 10px;
+  font-size: 13px;
+  max-width: 95%;
+  line-height: 25px;
+}
+.Advocacy-Campaigning button {
+ 
+  height: 30px;
+  width: 40%;
+  margin: 0;
+  margin-top: 150px;
+  margin-right: 50px;
+}
+.hunger-issue h1{
+  margin-left: 90px;
+  max-width: 30%;
+  font-size: 2.3rem;
+}
+.hunger-issue button{
+  margin-left: 90px;
+}
+
+.boxes {
+  align-items: flex-end;
+  margin-top: -340px;
+  align-items:center ;
+  margin-left: 340px;
+}
+.info1 {
+  width: 60%;
+  height: 150px;
+  max-width: 1200px;
+}
+.info2 {
+  width: 60%;
+  height: 150px;
+  max-width: 1200px;
+  margin-top:30px;
+}
+.info3 {
+  width: 60%;
+  height: 150px;
+  max-width: 1200px;
+  margin-top:30px;
+}
+.info4 {
+  width: 60%;
+  height: 150px;
+  max-width: 1200px;
+  margin-top:30px;
+}
+.did-you-know {
+  margin-right: 120px;
+  width: 180px;
+}
+.info h3{
+  font-size: 1.5rem;
+}
+.info p{
+  max-width:260px;
+  margin-top: 20px;
+}
+.social{
+  margin-right: 10px;
+}
+.stories img{
+  width: 450px;
+  margin-left: 50%;
+  
+}
+.story{
+ left: 55%;
+ top: -3.5%;
+ padding: 0.8%;
+}
+.Balki{
+  width:45%;
+  height: 250px;
+  margin-top: -320px;
+  padding-top: 3%;
+}
+.Balki p{
+  line-height: 25px;
+}
+#but2{
+  width:15%;
+  margin-top:40px;
+  margin-left: 100px;
+}
+.indicator{
+  flex-direction: row;
+margin-top:-370px;
+margin-left:100px ;
+}
+
+.lets-take-action h1{
+  padding-top: 50px;
+  margin-left: 100px;
+  max-width: 50%;
+  word-spacing: 10px;
+  letter-spacing: 2px;
+}
+.lets-take-action{
+  margin-top: 40%;
+  padding-bottom: 30px;
+}
+.images img {
+  height: 350px;
+  width: 350px;
+  margin-left:-20px;
+  margin-top: -120px;
+  max-width: 620px;
+}
+.event {
+  width: 150px;
+  max-width: 1200px;
+  left: 125%;
+  top: -50%;
+}
+.earth-day h2 {
+  font-size: 1.4rem;
+  margin-top: 70px;
+
+  margin-left: 83px;
+  width: 60%;
+  word-spacing: 10px;
+}
+.earth-day p {
+ 
+  margin-top: 20px;
+  margin-left: 83px;
+  max-width: 80%;
+  line-height: 22px;
+}
+.earth-day button {
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 83px;
+}
+
+.images2 {
+  order: 1;
+}
+.earth-day2 {
+  order: 0;
+}
+.images2 img {
+  width: 350px;
+  height: 350px;
+  max-width: 500px;
+  margin-right: 15px;
+}
+.latest {
+  top: -40%;
+  left:-115%;
+  width: 160px;
+}
+.earth-day2 h2 {
+  margin-top: 120px;
+  margin-left:-15px;
+  width: 60%;
+  word-spacing: 10px;
+  font-size: 1.4rem;
+  
+}
+.earth-day2 p {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: -15px;
+  max-width: 80%;
+  line-height: 22px;
+}
+.earth-day2 button {
+  margin: 0;
+  margin-top: 20px;
+  margin-left: -15px;
+
+}
+
+.subscription{
+  display: flex;
+  padding: 4%;
+}
+.subscription h3{
+  max-width: 40%;
+  line-height: 1.7rem;
+  margin-left: 35px;
+}
+#email{
+  width: 30%;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.subscription button{
+  width:15% ;
+  margin-top: 20px;
+}
+
+.Initiative{
+flex-direction: row;
+padding-bottom:30px;
+padding-top: 60px;
+
+}
+.green {
+  flex: 0 0 20%;
+ margin: 0;
+ margin-left:-30px;
+}
+.contact {
+  flex: 0 0 20%;
+  margin: 0;
+  font-size: 0.7rem;
+  }
+  .contact span{
+    font-size: 1rem;
+  }
+
+.follow {
+  flex: 0 0 20%;
+margin: 0;
+font-size: 0.7rem;
+}
+.follow span{
+  font-size: 1rem;
+}
+
+.learn-more {
+ flex: 0 0 20%;
+ margin: 0;
+ font-size: 0.7rem;
+}
+.learn-more span{
+  font-size: 1rem;
+}
+.climate-changes{
+  flex: 0 0 20%;
+  margin-left: 30px;
+  margin-top: 1%;
+}
+
+}
+@media (min-width:1300px){
+  
+  header h3{
+    margin-left: 120px;
+  }
+   header ul{
+    margin-left:140px;
+  }
+  .our{
+    margin-left: 120px;
+  }
+  .news{
+    margin-left: 120px;
+  }
+  #btn{
+    top: 7%;
+    right: 16%;
+  }
+  .Stop-change{
+    margin-top: 20px;
+    display: flex;
+  }
+  .heading{
+  order: 1;
+  margin-left:-220px;
+  font-size: 1.7rem;
+  line-height: 60px;
+
+  }
+  .threat-women{
+  
+    width: 470px;
+    height: 350px;
+    margin-left: 60px;
+  }
+
+  .threat-women h2{
+    max-width: 75%;
+    margin-top: 15px;
+    line-height: 45px;
+    font-size: 30px;
+  }
+  .threat-women p{
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  .content {
+    grid-gap: 5%;
+    padding-top:50px;
+    padding-bottom:40px;
+    padding-left:100px;
+    padding-right:8%;
+  }
+  .learn {
+  max-width: 70%;
+  margin-left: 30px;
+  }
+  
+  .volunteer {
+    max-width: 70%;
+  }
+  .share {
+    max-width: 80%;
+  }
+  .donate {
+    max-width: 70%;
+  }
+
+  .we-do{
+    margin-left:-950px;
+    margin-top: 10px;
+    padding: 1%;
+    }
+
+.what-we-do p{
+  font-size: 1.6rem;
+  word-spacing: 15px;
+  line-height: 35px;
+  margin-top: 20px;
+  max-width: 80%;
+  margin-left:-120px;
+}
+
+
+.Tree-planting {
+  width: 320px;
+  height: 460px;
+  max-width: 470px;
+  margin-left: -20px;
+}
+.Tree-planting img {
+  width: 95%;
+  height: 180px;
+  margin: -25px 0 0 40px;
+  max-width: 470px;
+}
+.Tree-planting h3 {
+  text-align:left;
+  margin-top: 8%;
+  margin-left: 40px;
+  max-width:50%;
+  line-height: 30px;
+}
+.Tree-planting p {
+  margin-left: 40px;
+  padding-right: 22px;
+  margin-top: 10px;
+  font-size: 13px;
+  max-width: 95%;
+  line-height: 25px;
+}
+.Tree-planting button {
+
+  margin: 0;
+  margin-top: 150px;
+  margin-right: 70px;
+}
+.Education-Training {
+  width: 320px;
+  height: 460px;
+  max-width: 470px;
+ 
+}
+.Education-Training img {
+  width: 95%;
+  height: 180px;
+  margin: -25px 0 0 40px;
+  max-width: 470px;
+}
+.Education-Training h3 {
+  text-align:left;
+  margin-top: 8%;
+  margin-left: 40px;
+  max-width:60%;
+  line-height: 30px;
+}
+.Education-Training p {
+  margin-left: 40px;
+  padding-right: 22px;
+  margin-top: 10px;
+  font-size: 13px;
+  max-width: 95%;
+  line-height: 25px;
+}
+.Education-Training button {
+
+  margin: 0;
+  margin-top: 150px;
+  margin-right: 70px;
+}
+.Advocacy-Campaigning {
+  width: 320px;
+  height: 460px;
+  max-width: 470px;
+ 
+}
+.Advocacy-Campaigning img {
+  width: 95%;
+  height: 180px;
+  margin: -25px 0 0 40px;
+  max-width: 470px;
+}
+.Advocacy-Campaigning h3 {
+  text-align:left;
+  margin-top: 8%;
+  margin-left: 40px;
+  max-width:50%;
+  line-height: 30px;
+}
+.Advocacy-Campaigning p {
+  margin-left: 40px;
+  padding-right: 22px;
+  margin-top: 10px;
+  font-size: 13px;
+  max-width: 95%;
+  line-height: 25px;
+}
+.Advocacy-Campaigning button {
+
+  margin: 0;
+  margin-top: 150px;
+  margin-right: 70px;
+}
+
+.hunger-issue h1{
+  margin-left: 130px;
+  padding-top: 80px;
+  max-width: 30%;
+  font-size: 2.5rem;
+}
+.hunger-issue button{
+  margin-left: 130px;
+}
+
+.boxes {
+  margin-top: -390px;
+  margin-left: 500px;
+}
+.info1 {
+  width: 60%;
+  height: 180px;
+  max-width: 1200px;
+}
+.info2 {
+  width: 60%;
+  height: 180px;
+  max-width: 1200px;
+  margin-top:30px;
+}
+.info3 {
+  width: 60%;
+  height: 180px;
+  max-width: 1200px;
+  margin-top:30px;
+}
+.info4 {
+  width: 60%;
+  height: 180px;
+  max-width: 1200px;
+  margin-top:30px;
+}
+.did-you-know {
+  margin-right: 250px;
+  width: 160px;
+  padding: 1%;
+}
+.info h3{
+  font-size: 1.6rem;
+}
+.info p{
+  margin-top: 10px;
+  font-size: 1rem;
+}
+.social{
+  margin-right: 10px;
+}
+#face{
+  margin-top: 20px;
+}
+.stories img{
+  width: 450px;
+  margin-left:55%;
+  
+}
+.story{
+ left: 60%;
+ top:-4%;
+ padding:0.5%;
+}
+.Balki{
+  margin-left:170px;
+}
+.Balki p{
+  line-height: 30px;
+}
+#but2{
+  margin-top:40px;
+  margin-left: 170px;
+}
+.indicator{
+margin-left:170px ;
+}
+
+.lets-take-action h1{
+  padding-top: 60px;
+  margin-left: 170px;
+  max-width: 40%;
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+  line-height: 50px;
+}
+.lets-take-action{
+  margin-top: 35%;
+  padding-bottom: 30px;
+}
+.images img {
+  height: 450px;
+  width: 500px;
+  margin-left:-110px;
+  margin-top: -120px;
+  max-width: 620px;
+}
+.event {
+  left: 126%;
+  top: -35%;
+}
+.earth-day h2 {
+  font-size: 1.6rem;
+  margin-top: 40px;
+  margin-left: 100px;
+  width: 60%;
+  word-spacing: 10px;
+  line-height: 40px;
+}
+.earth-day p {
+  margin-top: 30px;
+  margin-left: 100px;
+  max-width:100%;
+  line-height: 22px;
+  font-size: 1rem;
+}
+.earth-day button {
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.images2 {
+  order: 1;
+}
+.earth-day2 {
+  order: 0;
+}
+.images2 img {
+  width: 500px;
+  height: 500px;
+  max-width: 600px;
+  margin-right:-100px;
+}
+.latest {
+  top: -20%;
+  left:-120%;
+  width: 160px;
+}
+.earth-day2 h2 {
+  max-width: 100%;
+  word-spacing: 10px;
+  line-height: 40px;
+  margin-left: -110px;
+  font-size: 1.4rem;
+}
+.earth-day2 p {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: -108px;
+  line-height: 22px;
+  font-size: 1rem;
+  max-width: 100%;
+  word-spacing: 10px;
+}
+.earth-day2 button {
+  margin: 0;
+  margin-top: 20px;
+  margin-left: -110px;
+
+}
+
+.subscription h3{
+  max-width: 33%;
+  line-height: 1.7rem;
+  margin-left: 125px;
+  word-spacing: 5px;
+}
+#email{
+  width: 25%;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.Initiative{
+flex-direction: row;
+padding-bottom:30px;
+padding-top: 60px;
+
+}
+.green{
+  margin-left: 50px;
+  max-width: 17%;
+}
+.contact{
+  margin-left: 100px;
+}
+.follow{
+  margin-left:-60px;
+}
+.learn-more{
+  margin-left: -60px;
+}
+.climate-changes{
+  font-size: 2rem;
+margin-top:-100px;
+margin-left: 850px;
+}
+
 }
